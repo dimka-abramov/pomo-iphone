@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.framework     = 'Foundation'
   spec.libraries     = 'c++'
   spec.requires_arc  = true
-  spec.platform      = :ios
+  spec.platform      = :ios, '5.0' 
 end
